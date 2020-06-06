@@ -1,0 +1,217 @@
+body {
+        		background-color: ghostwhite;
+        	}
+        	@font-face {
+             font-family: 'icomoon';
+             src:  url('../fonts/icomoon.eot?yfnb93');
+             src:  url('../fonts/icomoon.eot?yfnb93#iefix') format('embedded-opentype'),
+             url('../fonts/icomoon.ttf?yfnb93') format('truetype'),
+             url('../fonts/icomoon.woff?yfnb93') format('woff'),
+             url('../fonts/icomoon.svg?yfnb93#icomoon') format('svg');
+             font-weight: normal;
+             font-style: normal;
+}
+
+        	* {
+        		padding: 0px;
+        		margin: 0px;
+        	}
+        	.containered {
+        		width: 1200px;
+        		margin: 0 auto;
+        		
+        	}
+        	.containeredbody {
+        		width: 800px;
+        		margin: 0 auto;
+        		
+        	}
+        	
+        	.nav {
+        		width: 100%;
+        		height: 70px;
+        		background-color: black;
+        		
+                
+        	}
+        	.navde {
+        		display: flex;
+        		align-items: center;
+        	}
+        	.nav .logo {
+        		flex: 2;
+        		height: 70px;
+        		
+        	}
+        	
+        	.nav .serch {
+        		height: 45px;
+        		line-height: 45px;
+        		background-color: #333;
+        		margin-left: 20%;
+        		border-radius: 25px;
+        		overflow: hidden;
+        		flex: 5;
+        		
+        	}
+        	
+        	.nav .serch input{
+        		outline: none;
+        		width: 70%;
+        		height:25px;
+        		line-height: 25px;
+        		margin: 10px 0; 
+        		padding: 0px 50px;
+        		box-sizing: border-box;
+        		border: 0;
+        		font-size: 16px;
+        		color: #999;
+        		background-color: #333;
+        		float: left;
+        		
+        	}
+        	.nav .serchbutton {
+        		
+               float: left;
+        		width: 30%;
+        		height:100%;
+        		box-sizing: border-box;
+        		padding-left: 20px;
+        		background-color: green;
+        		
+        	}
+        	.serchbutton span{
+        		font-family: icomoon;
+        		padding-right: 10px;
+        	}
+        	.nav .user {
+        		flex: 4;
+        		padding-left: 10%;
+        		font-family: icomoon;
+        		font-size: 25px;
+        		color:  green;
+        		
+        	}
+        	
+        	.user span a{
+        		color: green;
+        		text-decoration: none;
+        	}
+        	.user span:first-child {
+        		font-size:40px;
+        		padding-right:10px;	
+        		
+        	}
+        	
+        	
+        	
+        	
+        	.main {
+        		padding:0px 0px 40px;
+        		background-color: white;
+        	}
+        	
+        	
+        	.body>p{
+        		padding: 10px;
+        	}
+        	.vedio {
+        		overflow: hidden;
+        		margin-bottom: 20px;
+        		position: relative;;
+        	}
+        	#dou {
+        		position: absolute;
+        		top: 0;
+        		right: 0;
+        		font-size: 20px;
+        		
+        		
+        	}
+        	#dou img {
+        		width: 40px;
+        		vertical-align: middle;
+        		padding-left: 10px;
+        	}
+        	.vedio p {
+        		font-size: 13px;
+        		padding-bottom: 5px;
+        		margin-bottom: 0px!important;
+        	}
+        	.vedio p:first-child {
+        		font-size: 16px;
+        		 padding-bottom: 20px;
+        	}
+        	
+        	.main .left {
+        		float: left;
+        		
+        	}
+        	.main .left img {
+        	width: 220px;
+        	}
+        	.main .right {
+        		float: left;
+        		padding-left: 30px;
+        		margin-bottom: 0px!important;
+        	}
+        	.vedio .right  a {
+        		color: #000;
+        		width: 93px; 
+        		height: 25px;
+        		line-height: 25px;
+        		text-align: center;
+        		background-color: deepskyblue;
+        		text-decoration: none;
+        		border: 1px solid gray;
+        		display: block;
+        		margin-top: 10px;
+        		font-family: icomoon;
+        		
+        	}
+        	.jianjie {
+        	margin: 40px 0px;
+        	
+        	}
+        	.bg {
+        	background-color: white;
+        	padding-bottom: 50px;
+        	
+        	}
+        	.jianjie h4{
+        		padding: 10px 20px;
+        		
+        	}
+        	.jianjie p{
+        	    padding: 0 20px;
+        		font-size: 14px;
+        		letter-spacing: 1px;
+        		
+        		
+        	}
+        	.footer {
+        		overflow: hidden;
+        	}
+        	.footer li{
+        		float: left;
+        		margin-top: 10px;
+        		margin-left: 10px;
+        		list-style: none;
+        		
+        		
+        	}
+        	.footer li a{
+        		padding: 4px 8px 4px;
+        		border: 1px solid #d8d8d8;
+        	    cursor: pointer;
+        	    text-align: center;
+        	    display: inline-block;
+        	    text-decoration: none;
+        	    color: #333;
+        	    min-width: 40px;
+        	}
+        	.footer a:hover {
+        		background-color: deepskyblue;
+        	}
+        	
+        	

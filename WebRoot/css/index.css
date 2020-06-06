@@ -1,0 +1,402 @@
+body {
+        		background-color: ghostwhite;
+        	}
+        	@font-face {
+             font-family: 'icomoon';
+             src:  url('../fonts/icomoon.eot?yfnb93');
+             src:  url('../fonts/icomoon.eot?yfnb93#iefix') format('embedded-opentype'),
+             url('../fonts/icomoon.ttf?yfnb93') format('truetype'),
+             url('../fonts/icomoon.woff?yfnb93') format('woff'),
+             url('../fonts/icomoon.svg?yfnb93#icomoon') format('svg');
+             font-weight: normal;
+             font-style: normal;
+}
+
+        	* {
+        		padding: 0px;
+        		margin: 0px;
+        	}
+        	.containered {
+        		width: 1200px;
+        		margin: 0 auto;
+        		
+        	}
+        	.nav {
+        		width: 100%;
+        		height: 70px;
+        		background-color: black;
+        		
+                
+        	}
+        	.navde {
+        		display: flex;
+        		align-items: center;
+        	}
+        	.nav .logo {
+        		flex: 2;
+        		height: 70px;
+        		
+        	}
+        	
+        	.nav .serch {
+        		height: 45px;
+        		line-height: 45px;
+        		background-color: #333;
+        		margin-left: 20%;
+        		border-radius: 25px;
+        		overflow: hidden;
+        		flex: 5;
+        		
+        	}
+        	
+        	.nav .serch input{
+        		outline: none;
+        		width: 70%;
+        		height:25px;
+        		line-height: 25px;
+        		margin: 10px 0; 
+        		padding: 0px 50px;
+        		box-sizing: border-box;
+        		border: 0;
+        		font-size: 16px;
+        		color: #999;
+        		background-color: #333;
+        		float: left;
+        		
+        	}
+        	.nav .serchbutton {
+        		
+               float: left;
+        		width: 30%;
+        		height:100%;
+        		box-sizing: border-box;
+        		padding-left: 20px;
+        		background-color: green;
+        		
+        	}
+        	.serchbutton span{
+        		font-family: icomoon;
+        		padding-right: 10px;
+        	}
+        	.nav .user {
+        		flex: 4;
+        		padding-left: 10%;
+        		font-family: icomoon;
+        		font-size: 25px;
+        		color:  green;
+        		
+        	}
+        	
+        	.user span a{
+        		color:  green;
+        		text-decoration: none;
+        	}
+        	.user span:first-child {
+        		font-size:40px;
+        		padding-right:10px;	
+        		
+        	}
+        	
+        	
+        	
+        	
+        	
+            .lunbo {
+            	width: 100%;
+            	height:520px;
+        		animation: shouye 30s infinite;
+        		position: relative;
+        		
+        		
+        	}
+        /* 	@keyframes shouye {
+        		0%  {background: url(../img/bai.jpg);}
+        		15% {background: url(../img/ru.jpg);}
+        		30% {background: url(../img/chonglai.jpg);}
+        		45% {background: url(../img/x.jpg);}
+        	 	60% {background: url(../img/beijingdianying.jpg);} 
+        	 	75% {background: url(../img/wangyuan.jpg);}
+        	 	90% {background: url(../img/xulu.jpg);}	
+        	   100% {background: url(../img/cy.jpg);}	
+        	} */
+        	 ul{
+    list-style: none;
+    font-size: 0;
+}
+#box{
+    position: relative;
+    height: 520px;
+    overflow: hidden;
+}
+#description{
+position: absolute;
+    width: 300px;
+    height: 420px;
+    left: 1050px;
+    top: 0px;
+    background-color: rgba(0,0,0,0.7);
+}
+
+#imgBackground{
+   
+    position: relative;
+    
+}
+#description a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    display: block;
+    line-height: 50px;
+    height: 50px;
+    padding-left: 20px;
+}
+
+
+
+        	.lunbo .title {
+        		position: absolute;
+        		bottom: 0;
+        		width: 100%;
+        		height: 100px;
+        		background-color: rgba(0,0,0,0.8);
+        	}
+        	.lunbo .title .titles{
+        		height: 100px;
+        		
+        	}
+        	.title li{
+        		display: inline-block;
+        		font-size: 20px;
+        		line-height: 100px;
+        		padding-right: 50px;
+        		
+        	}
+        	.title li a{
+        		text-decoration: none;
+        		color: white;
+        	}
+        
+        	
+        	.main {
+        		margin-bottom: 40px;
+        	}
+        	.main .section {
+        		display: flex;
+        		flex-direction: column;
+        		height: 330px;
+        		margin-top: 20px;
+        	    padding: 10px 20px;
+        	    background-color: white;
+        		
+        	}
+        	.main .section .sectiontitle {
+        		
+        		flex: 1;
+        		display: flex;
+        		justify-content: space-between;
+        		align-items: center;
+        		border-bottom: 1px solid gainsboro;
+        		
+        	}
+        	.section .sectiontitle .stleft {
+        		float: left;
+        		font-size: 18px;
+        		box-sizing: border-box;
+        		font-weight: 600;
+        		color: rgba(0,0,0,0.6);
+        		
+        			
+        	}
+        	
+        	.section .sectiontitle .stright a {
+        		color: black;
+        		text-decoration: none;
+        		font-weight: 500;
+        		padding-right:10px;
+        		font-size:14px;
+        	}
+        	.section .sectiontitle .stright a:first-child {
+        		color:cornflowerblue;
+        	}
+        	 .section:nth-child(1) .cover:nth-child(1) a{
+        		background: url(../img/xinxinbainiangzi.jpg) no-repeat;
+        		background-size: 100% 100%;
+        	}
+        	 .section:nth-child(1) .cover:nth-child(2) a{
+        		background: url(../img/shanshanlaile.jpg) no-repeat;
+        		background-size: 100% 100%;
+        	} 
+        	.section:nth-child(1) .cover:nth-child(3) a{
+        		background: url(../img/ainiyiwannian.jpg) no-repeat;
+        		background-size: 100% 100%;
+        	}
+        	.section:nth-child(1) .cover:nth-child(4) a{
+        		background: url(../img/langyabang.jpg) no-repeat;
+        		background-size: 100% 100%;
+        	}
+        	.section:nth-child(1) .cover:nth-child(5) a{
+        		background: url(../img/fengshenyanyi.jpg) no-repeat;
+        		background-size: 100% 100%;
+        	}
+        	.section:nth-child(1) .cover:nth-child(6) a{
+        		background: url(../img/he.jpg) no-repeat;
+        		background-size: 100% 100%;
+        	} 
+        	.section:nth-child(2) .cover:nth-child(1) a{
+        		background: url(../img/tijiaxinniang.jpg) no-repeat;
+        		background-size: 100% 100%;
+        	}
+        	.section:nth-child(2) .cover:nth-child(2) a{
+        		background: url(../img/gumu.jpg) no-repeat;
+        		background-size: 100% 100%;
+        	}
+        	.section:nth-child(2) .cover:nth-child(3) a{
+        		background: url(../img/chaojilaoba.jpg) no-repeat;
+        		background-size: 100% 100%;
+        	}
+        	.section:nth-child(2) .cover:nth-child(4) a{
+        		background: url(../img/dushen3.jpg) no-repeat;
+        		background-size: 100% 100%;
+        	}
+        	.section:nth-child(3) .cover:nth-child(1) a{
+        		background: url(../img/wangpai.jpg) no-repeat;
+        		background-size: 100% 100%;
+        	}
+        	
+        	.section:nth-child(3) .cover:nth-child(2) a{
+        		background: url(../img/kengwangjiadao.jpg) no-repeat;
+        		background-size: 100% 100%;
+        	}
+        	.section:nth-child(3) .cover:nth-child(3) a{
+        		background: url(../img/one.jpg) no-repeat; 
+        		background-size: 100% 100%;
+        	}
+        	.section:nth-child(3) .cover:nth-child(4) a{
+        		background: url(../img/shengyindexuanze.jpg) no-repeat;
+        		background-size: 100% 100%;
+        	}
+        	.section:nth-child(4) .cover:nth-child(1) a{
+        		background: url(../img/ruguokeyizheyangai.jpg) no-repeat;
+        		background-size: 100% 100%;
+        	}
+        	.section:nth-child(4) .cover:nth-child(2) a{
+        		background: url(../img/tietan.jpg) no-repeat;
+        		background-size: 100% 100%;
+        	}
+        	.section:nth-child(4) .cover:nth-child(3) a{
+        		background: url(../img/yekong.jpg) no-repeat;
+        		background-size: 100% 100%;
+        	}
+        	.section:nth-child(4) .cover:nth-child(4) a{
+        		background: url(../img/chonger.jpg) no-repeat;
+        		background-size: 100% 100%;
+        	}
+        	.section:nth-child(4) .cover:nth-child(5) a{
+        		background: url(../img/chengwo.jpg) no-repeat;
+        		background-size: 100% 100%;
+        	}
+        	.section:nth-child(4) .cover:nth-child(6) a{
+        		background: url(../img/woshigujianan.jpg) no-repeat;
+        		background-size: 100% 100%;
+        	}
+        	.section:nth-child(5) .cover:nth-child(1) a{
+        		background: url(../img/wan.jpg) no-repeat;
+        		background-size: 100% 100%;
+        	}
+        	.section:nth-child(5) .cover:nth-child(2) a{
+        		background: url(../img/dao.jpg) no-repeat;
+        		background-size: 100% 100%;
+        	}
+        	.section:nth-child(5) .cover:nth-child(3) a{
+        		background: url(../img/shao.jpg) no-repeat;
+        		background-size: 100% 100%;
+        	}
+        	.section:nth-child(5) .cover:nth-child(4) a{
+        		background: url(../img/mo.jpg) no-repeat;
+        		background-size: 100% 100%;
+        	}
+        	
+        	.main .section .coverlist {
+        		flex: 7;
+        		display: flex;
+        		margin-top: 5px;
+        	}
+        	.coverlist .cover {
+        		flex: 1;
+        		display:  flex;
+        		flex-direction: column;
+        		margin: 0 5px;	
+        	}
+        	
+        	.coverlist .cover  a{
+        		flex: 5;
+        		display: block;
+        		position: relative;
+        		
+        		
+        	}
+        	.coverlist .cover  a:hover {
+        		box-shadow: 5px 5px 4px lightslategray;
+        	}
+        	
+        	.coverlist .cover span {
+        		position: absolute;
+        		font-size: 10px;
+        		right: 4px;
+        		bottom: 4px;
+        		padding: 4px 8px;
+        		color: #fff;
+        		border-radius: 2px;
+        		background-color: rgba(0,0,0,0.8);
+        	}
+
+        	.coverlist .cover .coverdetile {
+        		flex: 1;
+        		margin-top: 10px;
+        	}
+        	.coverlist .cover .coverdetile .jianjie {
+        		font-size:15px;
+        		font-weight: 600;
+        	}
+        	
+        	.coverlist .cover .coverdetile .zhuyan {
+        		font-size: 12px;
+        	
+        	}
+        	footer{
+        		
+        		width: 100%;
+        		background-color: rgba(0,0,0,0.2);
+        	}
+        	footer .footerbody {
+        		display: flex;
+        	}
+        	footer .footertitlecon {
+        	
+        		float: left;
+        		flex:1;
+        		padding: 10px;
+        		color: rgba(0,0,0,0.7);
+        	}
+        	footer .footertitlecon p:first-child {
+        		font-size: 20px;
+        		padding-top: 5px;
+        		
+        	}
+        	footer .footertitlecon p{
+        		padding-bottom: 5px;
+        	}
+        	footer .shangbiao {
+        		display: flex;
+        		align-items: center;
+        		
+        		height: 100px;
+        	}
+        	footer .shangbiao .p {
+        		flex: 1;
+        		color:red;
+        		text-align: center;
+        		color:gray
+        		
+        	}
